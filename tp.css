@@ -102,4 +102,61 @@ nav {
 	border-left:1px solid #999;
 	height:110px;
 }
-
+@media screen and (max-width: 1024px) {
+	#container {
+		margin-left:5%;
+		margin-right:5%;
+	}
+	nav {
+		display:flex;
+	}
+	#entete {
+		font-size:0.6em;
+		width:100px;
+	}
+	#navigation a {
+		font-size:0.6em;
+		width:50px;
+	}
+	
+	
+	#text2 {
+		font-size:1em;
+	}
+	#elem {
+		display:flex;
+		flex-direction:column;
+	}
+	#image {
+	width:15px;
+	height:15px;
+    }
+	#elems {
+		height:100px;
+	}
+	#btn {
+	text-decoration:none;
+	border:2px solid #3F6;
+	text-transform:uppercase;
+	color:#3F6;
+	width:100px;
+	height:40px;
+	border-radius:25px;
+    }
+	#text {
+	color:#FFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:17px;
+	width:200px;
+	text-transform:uppercase;
+	text-align:center;
+    }
+	#para {
+	color:#CCC;
+	margin:-10px;
+	font-size:12px;
+    }
+	.vertical-line {
+		display:none;
+	}
+}
