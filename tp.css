@@ -1,5 +1,5 @@
 body {
-	background-color:#333;
+	background-color: rgb(78, 75, 95);
 	}
 #container {	
 	margin-left:10%;
@@ -17,6 +17,7 @@ nav {
 	font-size:17px;
 }
 #trait {
+	position:relative;
 	height:1.5px;
 	border:none;
 	color:#999;
@@ -117,9 +118,7 @@ nav {
 	#navigation a {
 		font-size:0.6em;
 		width:50px;
-	}
-	
-	
+	}	
 	#text2 {
 		font-size:1em;
 	}
