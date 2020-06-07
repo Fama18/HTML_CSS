@@ -1,5 +1,6 @@
-body {
-	background-color: rgb(78, 75, 95);
+body {	
+	background-image:url(images/492a4303-55db-4eb7-89ef-46ad1286376a.jpg);
+	background-repeat:no-repeat;
 	}
 #container {	
 	margin-left:10%;
@@ -104,6 +105,7 @@ nav {
 	height:110px;
 }
 @media screen and (max-width: 1024px) {
+
 	#container {
 		margin-left:5%;
 		margin-right:5%;
